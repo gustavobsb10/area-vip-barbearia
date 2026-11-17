@@ -149,3 +149,6 @@ body::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-i
 .assinatura { font-family: var(--font-title); font-style: italic; font-size: 1.6rem; color: var(--gold); }
 
 .stars { color: var(--gold); letter-spacing: 6px; font-size: 1.1rem; font-style: normal; }
+
+/* Evita rolagem lateral no celular */
+html, body { overflow-x: hidden; max-width: 100%; }
