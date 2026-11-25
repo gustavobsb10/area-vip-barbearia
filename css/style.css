@@ -157,3 +157,7 @@ html, body { overflow-x: hidden; max-width: 100%; }
 .brand-sub { font-family: var(--font-body); font-size: .62rem; letter-spacing: 4px; color: var(--gray); margin-left: 4px; }
 @media (max-width: 400px) { .brand-sub { display: none; } }
 .about-img img[src*="guga"] { filter: contrast(1.05) saturate(.9); object-position: center 25%; }
+
+/* Galeria: legendas visíveis no celular (sem mouse) */
+@media (hover: none) { .galeria-item .legenda { opacity: 1; } }
+.galeria-item .img { filter: none; }

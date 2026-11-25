@@ -15,16 +15,16 @@ const SERVICOS = [
   { icone: 'bi-calendar2-check', nome: 'Plano Mensal', desc: 'Assinatura: corte de cabelo toda semana, com horário garantido.', preco: 500, tempo: 'por mês', destaque: true, tag: 'Assinatura' }
 ];
 
-// Fotos em images/ (Unsplash, licença gratuita). Troque pelas suas quando tiver.
+// Trabalhos reais do Guga (@ggugaducorte)
 const GALERIA = [
-  { cat: 'corte', titulo: 'Degradê na máquina — detalhe do fade', img: 'images/fade-maquina.jpg' },
-  { cat: 'corte', titulo: 'Corte social com acabamento', img: 'images/barbeiro-cortando.jpg' },
-  { cat: 'barba', titulo: 'Ensaio editorial: barba e estilo', img: 'images/editorial-barbeiro.jpg' },
-  { cat: 'corte', titulo: 'Pezinho na máquina e pente', img: 'images/acabamento-pente.jpg' },
-  { cat: 'ambiente', titulo: 'Lounge com pomadas e produtos', img: 'images/lounge-produtos.jpg' },
-  { cat: 'ambiente', titulo: 'Estação com espelhos dourados', img: 'images/espaco-tijolos.jpg' },
-  { cat: 'ambiente', titulo: 'Cadeira clássica cromada', img: 'images/cadeira-cromada.jpg' },
-  { cat: 'ambiente', titulo: 'Salão em couro capitonê', img: 'images/hero.jpg' }
+  { cat: 'corte', titulo: 'Freestyle com desenho na navalha', img: 'images/trabalho-1.jpg' },
+  { cat: 'corte', titulo: 'Degradê com risco e cruz', img: 'images/trabalho-2.jpg' },
+  { cat: 'barba', titulo: 'Guga — barba desenhada e fade', img: 'images/trabalho-3.jpg' },
+  { cat: 'corte', titulo: 'Platinado com risco lateral', img: 'images/trabalho-4.jpg' },
+  { cat: 'corte', titulo: 'Social clássico com acabamento', img: 'images/trabalho-5.jpg' },
+  { cat: 'corte', titulo: 'Fade baixo com textura', img: 'images/trabalho-6.jpg' },
+  { cat: 'corte', titulo: 'Degradê com desenho lateral', img: 'images/trabalho-7.jpg' },
+  { cat: 'corte', titulo: 'Fade com riscos no cabelo crespo', img: 'images/trabalho-8.jpg' }
 ];
 
 const HORARIOS = ['09:00','10:00','11:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00'];
