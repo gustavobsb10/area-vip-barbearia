@@ -9,7 +9,8 @@ const SERVICOS = [
   { icone: 'bi-person-bounding-box', nome: 'Barba', desc: 'Barba alinhada na navalha, com contorno e acabamento.', preco: 50, tempo: '30 min' },
   { icone: 'bi-droplet', nome: 'Barboterapia', desc: 'Toalha quente, navalha e hidratação profunda da barba.', preco: 100, tempo: '50 min' },
   { icone: 'bi-gem', nome: 'Combo Premium', desc: 'Corte Premium + Barboterapia, a experiência completa.', preco: 150, tempo: '1h40', destaque: true },
-  { icone: 'bi-brush', nome: 'Degradê Navalhado', desc: 'Fade de precisão com acabamento na navalha.', preco: 80, tempo: '50 min' },
+  { icone: 'bi-wind', nome: 'Alisamento', desc: 'Fios alinhados e sem volume, com acabamento natural.', preco: 100, tempo: '1h' },
+  { icone: 'bi-stars', nome: 'Progressiva', desc: 'Liso duradouro, com redução de frizz e brilho.', preco: 200, tempo: '2h' },
   { icone: 'bi-droplet-half', nome: 'Pigmentação', desc: 'Correção de falhas na barba ou cabelo com acabamento natural.', preco: 50, tempo: '30 min' },
   { icone: 'bi-calendar2-check', nome: 'Plano Mensal', desc: 'Assinatura: corte de cabelo toda semana, com horário garantido.', preco: 500, tempo: 'por mês', destaque: true, tag: 'Assinatura' }
 ];
